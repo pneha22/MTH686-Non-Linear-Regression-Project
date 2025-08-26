@@ -5,9 +5,25 @@ This repository contains code and resources for exploring non-linear regression 
 
 This project explores parameter estimation in three nonlinear regression models using least squares, based on a dataset with 65 points. The models tested were:
 
-- **Model 1:** Exponential sum: \( y(t) = \alpha_0 + \alpha_1 e^{\beta_1 t} + \alpha_2 e^{\beta_2 t} + \eta(t) \)
-- **Model 2:** Rational linear: \( y(t) = \frac{\alpha_0 + \alpha_1 t}{\beta_0 + \beta_1 t} + \eta(t) \)
-- **Model 3:** Polynomial (quartic): \( y(t) = \beta_0 + \beta_1 t + \beta_2 t^2 + \beta_3 t^3 + \beta_4 t^4 + \eta(t) \)
+
+**Model 1: Exponential Sum**
+
+$$
+y(t) = \alpha_0 + \alpha_1 e^{\beta_1 t} + \alpha_2 e^{\beta_2 t} + \eta(t)
+$$
+
+**Model 2: Rational Linear**
+
+$$
+y(t) = \frac{\alpha_0 + \alpha_1 t}{\beta_0 + \beta_1 t} + \eta(t)
+$$
+
+**Model 3: Polynomial (Quartic)**
+
+$$
+y(t) = \beta_0 + \beta_1 t + \beta_2 t^2 + \beta_3 t^3 + \beta_4 t^4 + \eta(t)
+$$
+
 
 ### Approach
 
